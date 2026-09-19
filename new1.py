@@ -8,4 +8,12 @@ for char in arr:
     else:
         freq[char] = 1
 
-new_list = freq.list
+new_list = [int(char) for char in freq]
+print(new_list)
+
+largest = 0
+for i in new_list:
+    if i > largest:
+        largest = i
+print(largest)
+
