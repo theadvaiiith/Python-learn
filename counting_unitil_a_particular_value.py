@@ -9,8 +9,8 @@ for char in numbers:
         print(target_number)
         break
 
-for char in numbers:
+for char in numbers:       #indexing the number till the required numebr to fnd the sum.
     if char == target_number:
         break
     count += 1
-print(count)
+print(count) 
