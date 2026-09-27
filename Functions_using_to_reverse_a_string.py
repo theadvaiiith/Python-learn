@@ -1,4 +1,4 @@
-def count_vowels(text):
+def reverse_text(text):
 
     reverse = ""
 
@@ -6,6 +6,6 @@ def count_vowels(text):
         reverse = char + reverse
     return reverse
 
-print(count_vowels("hello"))     # 2
-print(count_vowels("AEIOU"))     # 5
-print(count_vowels("Python"))    # 1
+print(reverse_text("hello"))  # "olleh"
+print(reverse_text("a"))      # "a"
+print(reverse_text(""))       # ""
