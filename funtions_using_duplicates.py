@@ -2,7 +2,7 @@ def remove_duplicates(nums):
     duplicate_list = []
 
     for i in range(len(nums)):
-        if nums[i] not in nums[:i]:
+        if nums[i] not in nums[:i]:    #means before position if i
             duplicate_list.append(nums[i])
 
     return duplicate_list
