@@ -1,10 +1,12 @@
 def second_largest(nums):
 
+    if nums == []:
+        return None
+
     largest = nums[0]
     second_largest = None
 
-    if nums == []:
-        return None
+
 
     for num in nums:
         if num > largest:
