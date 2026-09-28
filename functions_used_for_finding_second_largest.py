@@ -24,3 +24,6 @@ print(second_largest([3, 9, 2, 7]))   # 7
 print(second_largest([5, 5, 1]))      # 1
 print(second_largest([-8, -3, -12]))  # -8
 print(second_largest([4, 4]))         # None
+print(second_largest([]))       # None
+print(second_largest([0, 1]))   # 0
+print(second_largest([-5, -10]))  # -10
