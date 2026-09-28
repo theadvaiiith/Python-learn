@@ -1,21 +1,18 @@
 def second_largest(nums):
 
     largest = nums[0]
+    second_largest = None
 
-    second_largest = 0
-
+    if nums == []:
+        return None
 
     for num in nums:
         if num > largest:
             second_largest = largest
             largest = num
 
-        elif largest > num > second_largest:
+        elif num < largest and (second_largest is None or num > second_largest):
             second_largest = num
-
-    if second_largest == 0:
-        return None
-    
 
 
     return second_largest
