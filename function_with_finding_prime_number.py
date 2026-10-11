@@ -11,13 +11,6 @@ def is_prime(n):
     return True
 
     
-        
-
-
-
-    
-
-
 print(is_prime(0))   # False
 print(is_prime(1))   # False
 print(is_prime(2))   # True
