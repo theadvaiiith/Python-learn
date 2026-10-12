@@ -1,0 +1,12 @@
+def check_grade(score):
+
+    if score >= 90:
+        print("A")
+    elif score >=75:
+        print("B")
+    elif score >= 50:
+        print("C")
+    else:
+        print("fail")
+
+check_grade(82)
