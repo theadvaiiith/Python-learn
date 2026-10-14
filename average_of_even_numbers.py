@@ -10,7 +10,7 @@ for num in numbers:
         total = total + num
         count+=1
 
-    average = total / count
+average = total / count
 
 print(average)
 
