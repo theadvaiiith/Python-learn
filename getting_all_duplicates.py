@@ -6,8 +6,9 @@ def find_duplicates(numbers):
     duplicates = []
 
     for num in numbers:
-        if num in seen:   
-            duplicates.append(num)
+        if num in seen:
+            if num not in duplicates:   
+                duplicates.append(num)
 
         else:
             seen.add(num)
